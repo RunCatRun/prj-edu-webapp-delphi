@@ -80,39 +80,44 @@ SQL Server должен быть настроен в режиме:
 
 ---
 
-## Снимки экрана
+## 📷 Скриншоты
 
 ### Проверка работы приложения
 ![Test endpoint](doc/screenshots/app_test.png)
-Отображение тестового endpoint `/test`, подтверждающего корректную работу ISAPI-приложения в IIS.
+
+*Отображение тестового endpoint `/test`, подтверждающего корректную работу ISAPI-приложения в IIS.*
 
 ---
 
 ### Отображение клиентов (HTML)
 ![Clients HTML](doc/screenshots/app_clents.png)
-Вывод данных из базы в виде HTML-таблицы по адресу `/clients`.
+
+*Вывод данных из базы в виде HTML-таблицы по адресу `/clients`.*
 
 ---
 
 ### JSON API
 ![Clients JSON](doc/screenshots/app_clents_json.png)
-Ответ сервера в формате JSON по endpoint `/clients/json`.
+
+*Ответ сервера в формате JSON по endpoint `/clients/json`.*
 
 ---
 
 ### Содержимое базы данных (SSMS)
 ![Database content](doc/screenshots/DB_table_content(SSMS).png)
-Данные таблиц базы WebPracticeDB в SQL Server Management Studio.
+
+*Данные таблиц базы WebPracticeDB в SQL Server Management Studio.*
 
 ---
 
 ### Настройка IIS (приложение edu)
 ![IIS setup 1](doc/screenshots/IIS_apps_edu_1.png)
-Создание и настройка приложения `edu` в IIS.
+
+*Создание и настройка приложения `edu` в IIS.*
 
 ![IIS setup 2](doc/screenshots/IIS_apps_edu_2.png)
-Конфигурация параметров приложения и привязка к каталогу.
 
+*Конфигурация параметров приложения и привязка к каталогу.*
 
 ---
 
