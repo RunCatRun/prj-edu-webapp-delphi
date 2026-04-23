@@ -58,13 +58,18 @@ prj_edu_tourism.dll
 
 ## Запуск
 
-1. Установить IIS
-2. Установить SQL Server
-3. Выполнить SQL-скрипт `db/WebPracticeDB.sql`
-4. Скопировать DLL в:
-   C:\inetpub\wwwroot\edu\
-5. Открыть в браузере:
-/test
+1. Создать БД:
+   выполнить скрипт db/WebPracticeDB.sql в SSMS
+
+2. Скопировать DLL:
+   в C:\inetpub\wwwroot\edu\
+
+3. Настроить IIS:
+   - приложение edu
+   - включить ISAPI
+
+4. Проверка:
+   http://localhost/edu/prj_edu_tourism.dll/test
 
 ---
 
