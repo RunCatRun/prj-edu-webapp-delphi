@@ -1,0 +1,5 @@
+1. Установить IIS
+2. Установить SQL Server
+3. Выполнить WebPracticeDB.sql
+4. Скопировать DLL в C:\inetpub\wwwroot\edu\
+5. Открыть /test
